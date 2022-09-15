@@ -7,7 +7,7 @@
     | __ |   / _ \    >  <  \__ \  \__ \  
     |_||_|  /_/ \_\  /_/\_\ |___/  |___/  
 
-##A reinforcement learning based XSS injection prototype.
+## A reinforcement learning based XSS injection prototype.
 
 
 haxss docker
