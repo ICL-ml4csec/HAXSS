@@ -1,0 +1,11 @@
+admin:admin
+root:root
+admin:12345
+admin:123456
+admin:4321
+admin:54321
+admin:654321
+root:admin
+admin:root
+root:system
+admin:
