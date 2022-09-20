@@ -5,8 +5,8 @@ include("source/functions_external.php");
 
 
 <div class="body_padded">
-	<h1>XP Testbed</h1>
-	<h2>Micro Benchmark used for Training HAXSS</h2>
+	<h1>XP Train Bed</h1>
+	<h2>Micro Benchmark used for Training XSS scanners</h2>
 
 	<div class="vulnerable_code_area">
 		<form action="#" method="GET">

@@ -10,25 +10,25 @@
 ##A reinforcement learning based XSS injection prototype.
 
 
-haxss docker
+HAXSS docker
 
 
-from docker hub:
+From docker hub:
 
 	docker run -it --name haxss --network=host mlf20/haxss
 
-build from Dockerfile:
+Build from Dockerfile:
     
     git clone https://github.com/ICL-ml4csec/HAXSS.git
     cd ./HAXSS
     docker build -t haxss .
     docker run -it --name haxss --network=host haxss bash
 
-train haxss with: 
+Train HAXSS with (see micro_benchmark dir for the training webapp): 
 
-    python train.py --url [url]
+    python train.py --url [url] 
 
-test haxss with:
+Test HAXSS with:
 
      python test.py --url [url]
 
@@ -36,7 +36,7 @@ test haxss with:
 
 Do not run apt-get upgrade in the docker contianer as this will update the chrome version, causing the chromedrive to be the wrong version.
 
-The Micro Benchmark used to train Haxss can be found in the 'micro_benchmark' folder, which can be made into a container as described in the relevant README.md
+The XP Test Bed used to train Haxss can be found in the 'micro_benchmark' directory, which can be made into a container as described in the relevant README.md
 
 The following webapps can be built into docker containers:  
 - WebSecLab 
